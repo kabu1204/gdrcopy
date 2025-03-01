@@ -41,6 +41,11 @@ The library comes with a few tests like:
 - gdrcopy_apiperf, an application for benchmarking the latency of each GDRCopy API call.
 - gdrcopy_pplat, a benchmark application which calculates the round-trip ping-pong latency between GPU and CPU.
 
+GDRCopy now includes Python bindings, which allow you to use the library from Python applications:
+- Easy integration with NumPy and CuPy for efficient data transfer between CPU and GPU
+- Full access to the GDRCopy API from Python
+- Example scripts demonstrating usage and performance benchmarking
+
 ## Requirements
 
 GPUDirect RDMA requires [NVIDIA Data Center GPU](https://www.nvidia.com/en-us/data-center/) or [NVIDIA RTX GPU](https://www.nvidia.com/en-us/design-visualization/rtx/) (formerly Tesla and Quadro) based on Kepler or newer generations, see [GPUDirect
